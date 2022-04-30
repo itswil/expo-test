@@ -19,13 +19,15 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.expo.expo-test",
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.expo.expo-test"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
